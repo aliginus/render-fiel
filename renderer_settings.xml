@@ -1,0 +1,34 @@
+<!--
+
+	Hardware supported configurations:
+
+	Adapter: NVIDIA GeForce GT 740M
+	Adapter index: 0
+		Modes (width x height x refresh):
+			800x600x60
+			1024x768x60
+			1280x600x60
+			1280x720x60
+			1280x768x60
+			1360x768x60
+			1366x768x60
+
+-->
+<renderer_config>
+	<d3d_device
+		adapter = "NVIDIA GeForce GT 740M"
+		adapter_index = "0"
+		resolution = "1366 768"
+		windowed = "false"
+		refresh_rate = "60"
+		aspect_ratio = "1.77865"
+		v_sync = "1"
+	/>
+	<render_settings>
+		<variable name="shadow_quality_default" value="very_low"/>
+                             <variable name="shadow_quality" value="disabled"/>
+                             <variable name="shadow_map_size" value="0"/>
+                             <variable name="dynamic_lights" value="low"/>
+                             <variable name="texture_quality_lightmaps" value="very_low"/>
+	</render_settings>
+</renderer_config>
